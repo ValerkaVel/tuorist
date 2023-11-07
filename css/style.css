@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+#lerok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+.p-2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #070C37;
+}
+#shrift700 {
+    font-weight: 700;
+}
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 652px;
+    justify-content: space-between;
+}
+.levo1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    text-align: start;
+    text-transform: capitalize;
+    color: #070C37;
+}
+.lerap {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: start;
+    text-transform: capitalize;
+    color: #8F90A3;
+}
+.pravo1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+}
+.otstup {
+    margin-bottom: 50px;
+}
+#lerochek {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: start;
+    text-transform: capitalize;
+    color: #8F90A3;
+}
+#ler {
+    justify-content: space-between !important;
+}
+#ler2 {
+    justify-content: center;
+    max-height: 561px;
+}
+
+/* .carousel-control-prev {
+    max-height: 561px !important;
+    max-width: 961px !important;
+}
+.carousel-control-next {
+    max-height: 561px !important;
+    max-width: 961px !important;
+} */
+.carousel {
+    max-width: 923px;
+    margin: 0 auto;
+}
+.lerap2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #8F90A3;
+}
+.h11 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #070C37;
+}
+.lerok111 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lerok112 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.lerk {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: start;
+    text-transform: capitalize;
+    color: #8F90A3;
+}
+
+.zw {
+    width: 100%;
+    min-height: 500px;
+    background: url("../img/zw.png") center/cover no-repeat;
+}
+
+.kkkk {
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.col-12 {
+    margin-left: 4em;
+}
+
+
+
+
+
+
+/* _______________________________________________________________________ */
+
+body::-webkit-scrollbar {
+    width: 12px;           /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+    background: white;        /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #50C298;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+    border: 3px solid white;  /* отступ вокруг бегунка */
+}
+
+.dropdown {
+    display: none;
+}
+
+@media (max-width: 1220px) {
+    .accordion {
+        max-width: 700px;
+    }
+}
+@media (max-width: 840px) {
+    .sec1 {
+        flex-direction: column;
+    }
+    .levo1 {
+        width: 90%;
+    }
+    .pravo1 {
+        width: 90%;
+    }
+    /* .kkkk {
+        width: 90%;
+    } */
+}
+@media (max-width: 800px) {
+    .accordion {
+        max-width: 700px;
+    }
+    #lerok {
+        display: none;
+    }
+    .burger-menu {
+        opacity: 100%;
+        margin-left: 40px;
+        display: flex;
+    }
+    #shrift700 {
+        display: none;
+    }
+    .mb-3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem !important;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .dropdown {
+        display: flex;
+    }
+}
+@media (max-width: 740px) {
+    .accordion-button {
+        font-size: 20px;
+    }
+    .h11 {
+        font-size: 45px;
+    }
+    .h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .lerap {
+        font-size: 20px;
+    }
+    .otstup {
+        margin-bottom: 25px;
+    }
+    .lerap2 {
+        font-size: 20px;
+    }
+    .lerok111 {
+        min-height: 200px;
+    }
+    .accordion {
+        max-width: 400px;
+    }
+    .btn-danger {
+        font-size: 14px;
+    }
+}
+@media (max-width: 420px) {
+    .accordion {
+        max-width: 300px;
+    }
+    .zw {
+        min-height: 300px;
+    }
+    .col-12 {
+        margin-left: 0;
+    }
+    .pravo1 {
+        padding-left: 0px;
+    }
+    .btn {
+        --bs-btn-padding-x: 0.5rem;
+        --bs-btn-padding-y: 0.5rem;
+    }
+    .h11 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .lerok112 {
+        min-height: 150px;
+    }
+    .kkkk {
+        width: 90%;
+    }
+}
